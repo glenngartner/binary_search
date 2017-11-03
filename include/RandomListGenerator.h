@@ -10,10 +10,11 @@
 
 class RandomListGenerator {
 public:
-    RandomListGenerator(int numOfListEntries);
+    RandomListGenerator(int numOfListEntries, int min = 0, int max = 10);
     std::vector<int> list;
 private:
-    unsigned int returnRandomPositiveInt();
+    int returnRandomIntInRange(int min = 0, int max = 10);
+
 };
 
 
