@@ -2,7 +2,7 @@
 // Created by g on 10/27/17.
 //
 
-#include "RandomListGenerator.h"
+#include "../include/RandomListGenerator.h"
 
 RandomListGenerator::RandomListGenerator(int numOfListEntries) {
     this->list = {};
