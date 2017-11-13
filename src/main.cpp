@@ -29,7 +29,7 @@ int main() {
     index = newSearch->recursive(searchFor, min, newSearch->list->size() - 1);
     newSearch->printResult(searchFor, index);
 
-    std::printf("\nType any key to exit> \n");
+    std::printf("\nType any key to exit> ");
     std::cin >> input;
     return 0;
 }
