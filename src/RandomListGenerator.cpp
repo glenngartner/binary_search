@@ -1,8 +1,7 @@
 //
 // Created by g on 10/27/17.
 //
-
-#include <c++/cstdlib>
+#include <iostream>
 #include <algorithm>
 #include "../include/RandomListGenerator.h"
 
@@ -18,4 +17,11 @@ int RandomListGenerator::returnRandomIntInRange(int min, int max) {
     // generate a random number, and return it
     int range = max - min + 1;
     return std::rand() % range + min;
+}
+
+void RandomListGenerator::printList() {
+    std::printf("\nRandom List::\n");
+    for (int i = 0; i < this->list.size(); i++) {
+        std::cout << "[" << i << "]:" << this->list[i] << std::endl;
+    }
 }
