@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/binary_search.dir/src/main.cpp.o CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o  -o binary_search 
+/usr/bin/c++  -g   CMakeFiles/binary_search.dir/src/main.cpp.o CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o  -o binary_search 

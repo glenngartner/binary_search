@@ -81,43 +81,69 @@ CMakeFiles/binary_search.dir/src/main.cpp.o.provides: CMakeFiles/binary_search.d
 CMakeFiles/binary_search.dir/src/main.cpp.o.provides.build: CMakeFiles/binary_search.dir/src/main.cpp.o
 
 
-CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o: CMakeFiles/binary_search.dir/flags.make
-CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o: ../RandomListGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/cpp/binary_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o -c /home/g/workspace/cpp/binary_search/RandomListGenerator.cpp
+CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o: CMakeFiles/binary_search.dir/flags.make
+CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o: ../src/RandomListGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/cpp/binary_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o -c /home/g/workspace/cpp/binary_search/src/RandomListGenerator.cpp
 
-CMakeFiles/binary_search.dir/RandomListGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary_search.dir/RandomListGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/cpp/binary_search/RandomListGenerator.cpp > CMakeFiles/binary_search.dir/RandomListGenerator.cpp.i
+CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/cpp/binary_search/src/RandomListGenerator.cpp > CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.i
 
-CMakeFiles/binary_search.dir/RandomListGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary_search.dir/RandomListGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/cpp/binary_search/RandomListGenerator.cpp -o CMakeFiles/binary_search.dir/RandomListGenerator.cpp.s
+CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/cpp/binary_search/src/RandomListGenerator.cpp -o CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.s
 
-CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o.requires:
+CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o.requires:
 
-.PHONY : CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o.requires
+.PHONY : CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o.requires
 
-CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o.provides: CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o.requires
-	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o.provides.build
-.PHONY : CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o.provides
+CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o.provides: CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o.requires
+	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o.provides.build
+.PHONY : CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o.provides
 
-CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o.provides.build: CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o
+CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o.provides.build: CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o
+
+
+CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o: CMakeFiles/binary_search.dir/flags.make
+CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o: ../src/BinarySearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/cpp/binary_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o -c /home/g/workspace/cpp/binary_search/src/BinarySearch.cpp
+
+CMakeFiles/binary_search.dir/src/BinarySearch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary_search.dir/src/BinarySearch.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/cpp/binary_search/src/BinarySearch.cpp > CMakeFiles/binary_search.dir/src/BinarySearch.cpp.i
+
+CMakeFiles/binary_search.dir/src/BinarySearch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary_search.dir/src/BinarySearch.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/cpp/binary_search/src/BinarySearch.cpp -o CMakeFiles/binary_search.dir/src/BinarySearch.cpp.s
+
+CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o.requires:
+
+.PHONY : CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o.requires
+
+CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o.provides: CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o.requires
+	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o.provides.build
+.PHONY : CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o.provides
+
+CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o.provides.build: CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o
 
 
 # Object files for target binary_search
 binary_search_OBJECTS = \
 "CMakeFiles/binary_search.dir/src/main.cpp.o" \
-"CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o"
+"CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o" \
+"CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o"
 
 # External object files for target binary_search
 binary_search_EXTERNAL_OBJECTS =
 
 binary_search: CMakeFiles/binary_search.dir/src/main.cpp.o
-binary_search: CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o
+binary_search: CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o
+binary_search: CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o
 binary_search: CMakeFiles/binary_search.dir/build.make
 binary_search: CMakeFiles/binary_search.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/g/workspace/cpp/binary_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable binary_search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/g/workspace/cpp/binary_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable binary_search"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/binary_search.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,7 +152,8 @@ CMakeFiles/binary_search.dir/build: binary_search
 .PHONY : CMakeFiles/binary_search.dir/build
 
 CMakeFiles/binary_search.dir/requires: CMakeFiles/binary_search.dir/src/main.cpp.o.requires
-CMakeFiles/binary_search.dir/requires: CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o.requires
+CMakeFiles/binary_search.dir/requires: CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o.requires
+CMakeFiles/binary_search.dir/requires: CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o.requires
 
 .PHONY : CMakeFiles/binary_search.dir/requires
 

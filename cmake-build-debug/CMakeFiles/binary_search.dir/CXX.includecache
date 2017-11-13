@@ -6,7 +6,37 @@
 
 #IncludeRegexTransform: 
 
+/home/g/workspace/cpp/binary_search/include/BinarySearch.h
+vector
+-
+memory
+-
+
+/home/g/workspace/cpp/binary_search/include/RandomListGenerator.h
+memory
+-
+vector
+-
+
+/home/g/workspace/cpp/binary_search/src/BinarySearch.cpp
+../include/BinarySearch.h
+/home/g/workspace/cpp/binary_search/include/BinarySearch.h
+
+/home/g/workspace/cpp/binary_search/src/RandomListGenerator.cpp
+iostream
+-
+algorithm
+-
+../include/RandomListGenerator.h
+/home/g/workspace/cpp/binary_search/include/RandomListGenerator.h
+
 /home/g/workspace/cpp/binary_search/src/main.cpp
 iostream
 -
+memory
+-
+../include/RandomListGenerator.h
+/home/g/workspace/cpp/binary_search/include/RandomListGenerator.h
+../include/BinarySearch.h
+/home/g/workspace/cpp/binary_search/include/BinarySearch.h
 

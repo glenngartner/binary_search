@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/binary_search.dir/src/main.cpp.o"
-  "CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o"
+  "CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o"
+  "CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o"
   "binary_search.pdb"
   "binary_search"
 )

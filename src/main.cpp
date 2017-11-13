@@ -21,11 +21,14 @@ int main() {
     index = newSearch->iterative(searchFor);
     newSearch->printResult(searchFor, index);
 
-//    if (index == -1) {
-//        std::printf("value %d was not found in the list", searchFor);
-//    } else {
-//        std::printf("found %d at index %d", searchFor, index);
-//    }
+    searchFor = 32;
+    index = newSearch->recursive(searchFor, min, newSearch->list->size() - 1);
+    newSearch->printResult(searchFor, index);
+
+    searchFor = 155;
+    index = newSearch->recursive(searchFor, min, newSearch->list->size() - 1);
+    newSearch->printResult(searchFor, index);
+
     std::cin >> input;
     return 0;
 }

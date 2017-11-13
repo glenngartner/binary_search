@@ -123,32 +123,59 @@ binary_search/fast:
 	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/build
 .PHONY : binary_search/fast
 
-RandomListGenerator.o: RandomListGenerator.cpp.o
+src/BinarySearch.o: src/BinarySearch.cpp.o
 
-.PHONY : RandomListGenerator.o
+.PHONY : src/BinarySearch.o
 
 # target to build an object file
-RandomListGenerator.cpp.o:
-	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/RandomListGenerator.cpp.o
-.PHONY : RandomListGenerator.cpp.o
+src/BinarySearch.cpp.o:
+	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/BinarySearch.cpp.o
+.PHONY : src/BinarySearch.cpp.o
 
-RandomListGenerator.i: RandomListGenerator.cpp.i
+src/BinarySearch.i: src/BinarySearch.cpp.i
 
-.PHONY : RandomListGenerator.i
+.PHONY : src/BinarySearch.i
 
 # target to preprocess a source file
-RandomListGenerator.cpp.i:
-	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/RandomListGenerator.cpp.i
-.PHONY : RandomListGenerator.cpp.i
+src/BinarySearch.cpp.i:
+	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/BinarySearch.cpp.i
+.PHONY : src/BinarySearch.cpp.i
 
-RandomListGenerator.s: RandomListGenerator.cpp.s
+src/BinarySearch.s: src/BinarySearch.cpp.s
 
-.PHONY : RandomListGenerator.s
+.PHONY : src/BinarySearch.s
 
 # target to generate assembly for a file
-RandomListGenerator.cpp.s:
-	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/RandomListGenerator.cpp.s
-.PHONY : RandomListGenerator.cpp.s
+src/BinarySearch.cpp.s:
+	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/BinarySearch.cpp.s
+.PHONY : src/BinarySearch.cpp.s
+
+src/RandomListGenerator.o: src/RandomListGenerator.cpp.o
+
+.PHONY : src/RandomListGenerator.o
+
+# target to build an object file
+src/RandomListGenerator.cpp.o:
+	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.o
+.PHONY : src/RandomListGenerator.cpp.o
+
+src/RandomListGenerator.i: src/RandomListGenerator.cpp.i
+
+.PHONY : src/RandomListGenerator.i
+
+# target to preprocess a source file
+src/RandomListGenerator.cpp.i:
+	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.i
+.PHONY : src/RandomListGenerator.cpp.i
+
+src/RandomListGenerator.s: src/RandomListGenerator.cpp.s
+
+.PHONY : src/RandomListGenerator.s
+
+# target to generate assembly for a file
+src/RandomListGenerator.cpp.s:
+	$(MAKE) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/RandomListGenerator.cpp.s
+.PHONY : src/RandomListGenerator.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -186,9 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... binary_search"
-	@echo "... RandomListGenerator.o"
-	@echo "... RandomListGenerator.i"
-	@echo "... RandomListGenerator.s"
+	@echo "... src/BinarySearch.o"
+	@echo "... src/BinarySearch.i"
+	@echo "... src/BinarySearch.s"
+	@echo "... src/RandomListGenerator.o"
+	@echo "... src/RandomListGenerator.i"
+	@echo "... src/RandomListGenerator.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

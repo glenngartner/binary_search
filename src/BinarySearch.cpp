@@ -41,3 +41,21 @@ void BinarySearch::printResult(int searchedFor, int indexReturned) {
 }
 
 
+int BinarySearch::recursive(int valueToFind, int low, int high) {
+    if (low <= high) {
+        int mid = (low + high) / 2;
+        if ((*this->list)[mid] > valueToFind) {
+            return this->recursive(valueToFind, low, mid - 1);
+//        high = mid - 1;
+        } else if ((*this->list)[mid] < valueToFind) {
+            return this->recursive(valueToFind, mid + 1, high);
+//        low = mid + 1;
+        } else {
+            return mid;
+        }
+    }
+
+    return -1;
+}
+
+

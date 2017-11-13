@@ -16,6 +16,8 @@ public:
 
     int iterative(int valueToFind);
 
+    int recursive(int valueToFind, int min, int max);
+
     void printResult(int searchedFor, int indexReturned);
 
 };

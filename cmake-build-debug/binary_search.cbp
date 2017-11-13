@@ -86,10 +86,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/g/workspace/cpp/binary_search/RandomListGenerator.cpp">
+		<Unit filename="/home/g/workspace/cpp/binary_search/include/BinarySearch.h">
 			<Option target="binary_search"/>
 		</Unit>
-		<Unit filename="/home/g/workspace/cpp/binary_search/RandomListGenerator.h">
+		<Unit filename="/home/g/workspace/cpp/binary_search/include/RandomListGenerator.h">
+			<Option target="binary_search"/>
+		</Unit>
+		<Unit filename="/home/g/workspace/cpp/binary_search/src/BinarySearch.cpp">
+			<Option target="binary_search"/>
+		</Unit>
+		<Unit filename="/home/g/workspace/cpp/binary_search/src/RandomListGenerator.cpp">
 			<Option target="binary_search"/>
 		</Unit>
 		<Unit filename="/home/g/workspace/cpp/binary_search/src/main.cpp">
