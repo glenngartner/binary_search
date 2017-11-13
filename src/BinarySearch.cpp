@@ -2,6 +2,7 @@
 // Created by g on 11/12/17.
 //
 
+#include <iostream>
 #include "../include/BinarySearch.h"
 
 BinarySearch::BinarySearch(std::vector<int> &list) {
